@@ -11,7 +11,7 @@ const surnames = ['Rossi', 'Bianchi', 'Verdi', 'Lain', 'De Luigi', 'Scapin'];
 // console.log(surnames);
 
 for(let i = 0; i < names.length; i++) {
-    console.log(Math.floor(Math.random()*names.length));
+    // console.log(Math.floor(Math.random()*names.length));
     let thisName = names[Math.floor(Math.random() * names.length)];
     let thisSurname = surnames[Math.floor(Math.random() * surnames.length)];
 
