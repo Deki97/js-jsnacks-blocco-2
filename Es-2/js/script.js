@@ -4,15 +4,16 @@
  * Gatsby vuole generare una falsa lista di invitati.
  */
 
-const names = ['Dejan', 'Alberto', 'Michele', 'Maurizio'];
-const surnames = ['Nikolic', 'Rossi', 'Bianchi', 'Verdi'];
+const names = ['Alberto', 'Michele', 'Maurizio', 'Federico', 'Andrea', 'Matteo'];
+const surnames = ['Rossi', 'Bianchi', 'Verdi', 'Lain', 'De Luigi', 'Scapin'];
 
 // console.log(names);
 // console.log(surnames);
 
 for(let i = 0; i < names.length; i++) {
-    let thisName = names[Math.floor(Math.random()*names.length)];
-    let thisSurname = surnames[Math.floor(Math.random()*surnames.length)];
+    console.log(Math.floor(Math.random()*names.length));
+    let thisName = names[Math.floor(Math.random() * names.length)];
+    let thisSurname = surnames[Math.floor(Math.random() * surnames.length)];
 
     console.log(thisName + " " + thisSurname);
 }
