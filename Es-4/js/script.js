@@ -19,3 +19,4 @@ while (numberSum < 50) {
 }
 
 console.log(`Il programma è terminato perche ${numberSum} è maggiore di 50`);
+console.log(`L'array di elementi ora contiene al suo interno: ${numbers}`);
