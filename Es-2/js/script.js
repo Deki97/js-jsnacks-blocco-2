@@ -7,8 +7,8 @@
 const names = ['Dejan', 'Alberto', 'Michele', 'Maurizio'];
 const surnames = ['Nikolic', 'Rossi', 'Bianchi', 'Verdi'];
 
-console.log(names);
-console.log(surnames);
+// console.log(names);
+// console.log(surnames);
 
 for(let i = 0; i < names.length; i++) {
     let thisName = names[Math.floor(Math.random()*names.length)];
